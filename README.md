@@ -19,12 +19,16 @@ Question Service
 // http://localhost:8080/question/add
 
 
+
 Quiz Service 
 
 
 // http://localhost:8080/quiz/create?category=Java&numQ=2&title=JQuiz
+
 // http://localhost:8080/quiz/create?category=Football&numQ=5&title=FootballQuiz
+
 // http://localhost:8080/quiz/get/2
+
 // http://localhost:8080/quiz/submit/2
 
 
