@@ -1,0 +1,19 @@
+
+Tables : question
+         quiz
+         quiz_questions
+
+
+
+Insert statement for Questions table 
+
+INSERT INTO question (id,question_title,option1,option2,option3,option4,right_answer,difficultylevel,category) VALUES
+	 (1,'Which Java key word is used to create a subclass?','class','interface','extends','implements','extends','Easy','Java'),
+	 (2,'Who Scored most Goals in 2023','Haaland','Cristiano Ronaldo','Mpabbe','Harry Kane','Cristiano Ronaldo','Medium','Football'),
+	 (3,'Who is the top Singer in 2023','Beyonce','Morgan Wallen','Taylor Swift','Bruno Mars','Taylor Swift','Medium','Pop Star'),
+	 (4,'Which OPERATOR IN  Java is used to concatenate two strings','+','-','*','/','+','Hard','Java'),
+	 (52,'Who Scored most Goals in 2022','Haaland','Cristiano Ronaldo','Mbappe','Harry Kane','Cristiano Ronaldo','Medium','Football'),
+	 (102,'Who Scored most Goals in 2021','Haaland','Cristiano Ronaldo','Mbappe','Messi','Messi','Medium','Football'),
+	 (152,'Who Scored most Goals in 2020','Messi','Cristiano Ronaldo','Lewandoski','Harry Kane','Lewandoski','Medium','Football'),
+	 (202,'Who won the 2016-17 UCL','Barcelona FC','Liverpool','Inter Milan','Real Madrid','Real Madrid','Hard','Football'),
+	 (203,'Who won the 2013-14 UCL','Bayern Leverkusen','Liverpool','Bayern Munich','Real Madrid','Real Madrid','Hard','Football');
