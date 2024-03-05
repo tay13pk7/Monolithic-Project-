@@ -13,7 +13,9 @@ Postman API calls -  Please read the endpoints in Controller in
 Question Service
 
 // http://localhost:8080/question/allQuestions
+
 // http://localhost:8080/question/category/Football     by id
+
 // http://localhost:8080/question/add
 
 
