@@ -12,3 +12,71 @@ http://localhost:8080/question/add
     "difficultylevel": "Medium",
     "category": "Football"
 }
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+http://localhost:8080/quiz/submit/1
+
+[
+    {
+        "id":1
+    },
+    {
+        "id":4
+    }
+]
+
+-------------------------------------------------------------------------------
+
+
+http://localhost:8080/quiz/create?category=Football&numQ=5&title=FootballQuiz
+
+params 
+
+key                           values
+category                      Football
+numQ                          5  
+title                         FootballQuiz
+
+
+-------------------------------------------------------------------------------
+
+
+http://localhost:8080/question/getScore
+
+
+[
+    {
+        "id":2,
+        "response":"*"
+    },
+    {
+        "id":52,
+        "response":"Cristiano Ronaldo"
+    },
+    {
+        "id":203,
+        "response":"Real Madrid"
+    },
+    {
+        "id":202,
+        "response":"Real Madrid"
+    },
+    {
+        "id":102,
+        "response":"Messi"
+    }
+]
+
+--------------------------------------------------------------------
+
+http://localhost:8090/quiz/create
+
+{
+    "categoryName": "Football",
+    "numQuestions":5,
+    "title": "First quiz Football"
+}
