@@ -1,0 +1,14 @@
+Here is the body for all Post API
+
+http://localhost:8080/question/add
+
+{
+    "questionTitle": "Who Scored most Goals in 2022",
+    "option1": "Haaland",
+    "option2": "Cristiano Ronaldo",
+    "option3": "Mbappe",
+    "option4": "Harry Kane",
+    "rightAnswer": "Cristiano Ronaldo",
+    "difficultylevel": "Medium",
+    "category": "Football"
+}
